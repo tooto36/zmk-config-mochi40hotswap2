@@ -39,28 +39,28 @@
 
 		numbers {
 			bindings = <
-				&trans &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7    &kp N8    &kp N9    &kp N0   &kp DEL
-				&trans    &kp n &trans &trans &trans &trans &kp UNDER &kp PLUS &kp MINUS  &kp ASTRK  &kp FSLH &kp RET
-				&trans    &trans &trans &trans &trans &trans &trans &trans    &trans    &trans    &trans   &trans
-				&trans    &trans &trans &trans &trans &trans &trans &kp HOME  &kp PG_DN &kp PG_UP &kp END  &trans
+				&trans  &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6    &kp N7    &kp N8     &kp N9     &kp N0   &kp DEL
+				&trans  &kp n  &trans &trans &trans &trans &kp UNDER &kp PLUS  &kp MINUS  &kp ASTRK  &kp FSLH &kp RET
+				&trans  &trans &trans &trans &trans &trans &trans    &trans    &trans     &trans     &trans   &trans
+				&trans  &trans &trans &trans &trans 	   &trans    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END  &trans
 			>;
 		};
 
         symbols {
 			bindings = <
-				&kp LS(GRAVE) &kp LS(N1) &kp LS(N2) &kp LS(N3) &kp LS(N4) &kp LS(N5) &kp LS(N6) &kp LS(N7) &kp LS(N8)    &kp LS(N9)   &kp LS(N0) &kp DEL
-				&trans        &trans 	 &trans     &trans     &trans     &trans     &trans     &kp MINUS  &kp EQUAL     &kp LBKT     &kp RBKT   &trans
-				&trans        &trans     &trans     &trans     &trans     &trans     &trans     &trans     &kp LS(COMMA) &kp LS(DOT)  &trans     &trans
-				&trans        &trans     &trans     &trans     &trans     &trans     &trans     &kp C_MUTE &kp C_VOL_DN  &kp C_VOL_UP &kp C_PP   &trans
+				&kp LS(GRAVE) &kp LS(N1) &kp LS(N2) &kp LS(N3) &kp LS(N4) &kp LS(N5) &kp LS(N6) &kp LS(N7)  &kp LS(N8)    &kp LS(N9)   &kp LS(N0) &kp DEL
+				&trans        &trans 	 &trans     &trans     &trans     &trans     &trans     &kp MINUS   &kp EQUAL     &kp LBKT     &kp RBKT   &trans
+				&trans        &trans     &trans     &trans     &trans     &trans     &trans     &trans      &kp LS(COMMA) &kp LS(DOT)  &trans     &trans
+				&trans        &trans     &trans     &trans     &trans     &trans     &trans     &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP &kp C_PP   &trans
 			>;
 		};
 
 		control {
 			bindings = <
-				&reset &bootloader &bt BT_CLR &bt BT_PRV &bt BT_NXT &trans  &trans  &trans  &trans  &trans          &trans  &trans
-				&trans &trans 	   &trans   &trans    &trans    &trans &trans &trans &kp C_POWER &kp C_AL_LOGOFF &kp K_POWER &trans
-				&trans &kp F1      &kp F2     &kp F3     &kp F4     &kp F5  &kp F6  &kp F7  &kp F8  &kp F9          &kp F10 &trans
-				&trans &trans      &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans          &trans  &ext_power EP_TOG
+				&reset &bootloader &bt BT_CLR &bt BT_PRV &bt BT_NXT &trans  &trans  &trans  &trans      &trans          &trans      &trans
+				&trans &trans 	   &trans     &trans     &trans     &trans  &trans  &trans  &kp C_POWER &kp C_AL_LOGOFF &kp K_POWER &trans
+				&trans &kp F1      &kp F2     &kp F3     &kp F4     &kp F5  &kp F6  &kp F7  &kp F8      &kp F9          &kp F10     &trans
+				&trans &trans      &trans     &trans     &trans     &trans  &trans  &trans  &trans      &trans          &trans      &trans
 			>;
 		};
 	};
